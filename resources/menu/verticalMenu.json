@@ -1,0 +1,97 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons fas fa-grid",
+      "slug": "pages-home"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "app-user",
+      "submenu": [
+        {
+          "url": "users",
+          "name": "All Users",
+          "slug": "app-user-list"
+        }
+      ]
+    },
+    {
+      "url": "stations",
+      "name": "Stations",
+      "icon": "menu-icon tf-icons ti ti-building",
+      "slug": "pages-stations"
+    },
+    {
+      "url": "offenses",
+      "name": "Offenses",
+      "icon": "menu-icon tf-icons ti ti-file",
+      "slug": "pages-offenses"
+    },
+    {
+      "url": "bookings",
+      "name": "Bookings",
+      "icon": "menu-icon tf-icons ti ti-list",
+      "slug": "pages-bookings"
+    },
+    {
+      "url": "offenders",
+      "name": "Offenders",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "pages-offenders"
+    },
+    {
+      "url": "offended",
+      "name": "Offended",
+      "icon": "menu-icon tf-icons ti ti-tags",
+      "slug": "pages-offended"
+    },
+    {
+      "name": "Roles & Permissions",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-access",
+      "submenu": [
+        {
+          "url": "roles",
+          "name": "Roles",
+          "slug": "app-access-roles"
+        },
+        {
+          "url": "permissions",
+          "name": "Permission",
+          "slug": "app-access-permission"
+        }
+      ]
+    },
+    {
+      "name": "Counties & Locations",
+      "icon": "menu-icon tf-icons ti ti-map-pin",
+      "slug": "app-counties-locations",
+      "submenu": [
+        {
+          "url": "counties",
+          "name": "Counties",
+          "slug": "counties"
+        },
+        {
+          "url": "subcounties",
+          "name": "Subcounties",
+          "slug": "app-subcounties"
+        },
+        {
+          "url": "wards",
+          "name": "wards",
+          "slug": "app-wards"
+        }
+      ]
+    },
+    {
+      "url": "activity",
+      "name": "Activity Logs",
+      "icon": "menu-icon tf-icons ti ti-activity",
+      "slug": "pages-activities"
+    }
+  ]
+}
